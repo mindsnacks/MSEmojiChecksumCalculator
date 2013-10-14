@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jacob Eiting" => "jacob@mindsnacks.com" }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
-  s.source       = { :git => "https://github.com/mindsnacks/MSEmojiChecksumCalculator.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/mindsnacks/MSEmojiChecksumCalculator.git", :tag => "#{s.version}" }
   s.source_files  = "MSEmojiChecksumCalculator.{h,m}"
   s.public_header_files = "MSEmojiChecksumCalculator.h"
   s.frameworks = 'Foundation', 'CommonCrypto'
