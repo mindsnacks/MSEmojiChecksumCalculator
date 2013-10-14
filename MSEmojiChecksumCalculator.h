@@ -10,6 +10,7 @@
 
 @interface MSEmojiChecksumCalculator : NSObject
 
-- (NSString *)emojiChecksumForFile:(NSString *)path;
+- (NSString *)checksumForFile:(NSString *)path;
+- (NSString *)checksumForData:(NSData *)data;
 
 @end
