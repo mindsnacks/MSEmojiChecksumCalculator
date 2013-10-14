@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MSEmojiChecksum"
-  s.version      = "1.0.0"
+  s.version      = "0.0.1"
   s.summary      = "Calculate checksums that are human readable and fun! 🍌🙆🚽"
 
   s.description  = <<-DESC
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Jacob Eiting" => "jacob.eiting@gmail.com" }
 
-  s.source       = { :git => "https://github.com/mindsnacks/MSEmojiChecksumCalculator.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/mindsnacks/MSEmojiChecksumCalculator.git", :tag => "0.0.1" }
 
   s.source_files  = '*.{h,m}'
   s.public_header_files = '*.h'
