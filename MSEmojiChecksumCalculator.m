@@ -79,7 +79,7 @@ static NSString * const MSAllEmojiCharacterString =  @"😃😀😊☺😉😍�
     MD5 digest;
     CC_MD5_Final(digest, &md5);
     [stream close];
-    
+
     return [NSData dataWithBytes:digest length:CC_MD5_DIGEST_LENGTH];
 }
 
