@@ -13,7 +13,7 @@ Calculate checksums that are human readable and fun! 🍌🙆🚽
 
 - (void)checkDatSum
 {
-	NSEmojiChecksumCalculator *calc = [[NSEmojicChecksumCalculator alloc] init];
+	NSEmojiChecksumCalculator *calc = [[NSEmojiChecksumCalculator alloc] init];
 
 	NSString *pathToCheck = @"some/dumb/path/🍺";
 
