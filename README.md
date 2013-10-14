@@ -21,6 +21,11 @@ Calculate checksums that are human readable and fun! 🍌🙆🍺🚽
 }
 ```
 
+## Example Checksum
+
+![Asweome Emoji](http://f.cl.ly/items/242J0b1h260E3j2M2k2y/Screenshot%202013-10-14%2015.59.12.png)
+
+
 ## Why?
 
 Checksums are a useful way to quickly check the contents of a bunch of data. The MD5 checksum spits out 16 bytes of random numbers. While this is great for computers, humans don't want to look at a huge hex string. The emoji checksum calculator spits out 4 emoji character hash.
