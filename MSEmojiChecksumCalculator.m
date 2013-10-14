@@ -66,18 +66,18 @@ static NSString * const MSAllEmojiCharacterString =  @"😃😀😊☺😉😍�
     [stream open];
     CC_MD5_CTX md5;
 
-	CC_MD5_Init(&md5);
+    CC_MD5_Init(&md5);
     u_int8_t *data = malloc(CHUNK_SIZE);
 
-	while(stream.streamStatus != NSStreamStatusAtEnd && stream.streamStatus != NSStreamStatusError)
-	{
+    while(stream.streamStatus != NSStreamStatusAtEnd && stream.streamStatus != NSStreamStatusError)
+    {
         NSUInteger read = [stream read:data maxLength:CHUNK_SIZE];
-		CC_MD5_Update(&md5, data, (int)read);
-	}
+        CC_MD5_Update(&md5, data, (int)read);
+    }
 
     free(data);
-	MD5 digest;
-	CC_MD5_Final(digest, &md5);
+    MD5 digest;
+    CC_MD5_Final(digest, &md5);
     [stream close];
     
     return [NSData dataWithBytes:digest length:CC_MD5_DIGEST_LENGTH];
