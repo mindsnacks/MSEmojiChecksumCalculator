@@ -3,6 +3,7 @@ MSEmojiChecksumCalculator
 
 Calculate checksums that are human readable and fun! 🍌🙆🚽
 
+![Awesome use of emoji checksum](http://f.cl.ly/items/2Z1d07360n2s1R1R2L17/Screenshot%202013-10-14%2012.26.03.png)
 
 ## Usage
 ```
@@ -21,8 +22,6 @@ Calculate checksums that are human readable and fun! 🍌🙆🚽
 	NSLog(@"Your dumb file version = %@", checksum);
 }
 ```
-
-![Awesome use of emoji checksum](https://www.dropbox.com/s/bb1wwals0p4b2bq/Screenshot%202013-10-14%2012.26.03.png)
 
 ## Why?
 
