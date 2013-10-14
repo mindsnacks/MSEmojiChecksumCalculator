@@ -33,7 +33,7 @@ static NSString * const MSAllEmojiCharacterString =  @"😃😀😊☺😉😍�
 - (NSString *)checksumForInputStream:(NSInputStream *)stream
 {
     NSData *data = [self MD5FromInputStream:stream];
-    NSMutableString *emojiChecksum = [[NSMutableString new] autorelease];
+    NSMutableString *emojiChecksum = [NSMutableString string];
 
     const char *bytes = (const char *)[data bytes];
 
