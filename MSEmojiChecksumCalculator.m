@@ -45,7 +45,7 @@ static NSString * const MSAllEmojiCharacterString =  @"😃😀😊☺😉😍�
         if (((i + 1) % EMOJI_CHECKSUM_LENGTH) == 0)
         {
             // make a char
-            NSUInteger idx = byte % [MSAllEmojiCharacterString length];
+            NSUInteger idx = byte % (uint32_t)[MSAllEmojiCharacterString length];
             NSRange emojiRange = [MSAllEmojiCharacterString rangeOfComposedCharacterSequenceAtIndex:idx];
             [emojiChecksum appendString:[MSAllEmojiCharacterString substringWithRange:emojiRange]];
             byte = 0;
